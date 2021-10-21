@@ -1,0 +1,16 @@
+.navbar-toggler:focus{
+
+    box-shadow: none;
+}
+.navbar-toggler:hover{
+
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (min-width: 768px){
+    div.news-input{
+        width: 50%;
+
+    }
+}
+
