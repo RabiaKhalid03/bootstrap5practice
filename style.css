@@ -7,6 +7,13 @@
     background-color: rgba(0, 0, 0, 0.5);
 }
 
+body::before{
+    content: '';
+    display: block;
+    height: 60px;
+
+}
+
 @media screen and (min-width: 768px){
     div.news-input{
         width: 50%;
